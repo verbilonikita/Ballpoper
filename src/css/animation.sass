@@ -1,0 +1,68 @@
+@keyframes animationFrames
+    0%
+        transform:  translate(-4px,2px)  rotate(4deg)
+    50%
+        transform:  translate(4px,2px)  rotate(-4deg) 
+    100%
+        transform:  translate(-4px,2px)  rotate(4deg) 
+@-webkit-keyframes animationFrames
+    0%
+        -webkit-transform:  translate(-4px,2px)  rotate(4deg)
+    50%
+        -webkit-transform:  translate(4px,2px)  rotate(-4deg)
+    100%
+        -webkit-transform:  translate(-4px,2px)  rotate(4deg)
+
+@-webkit-keyframes zoomIn
+    0%
+        opacity: 0
+        -webkit-transform: scale3d(.3, .3, .3)
+        transform: scale3d(.3, .3, .3)
+    50%
+        opacity: 1
+    100%
+        opacity: 1
+
+@keyframes zoomIn 
+    0%
+        opacity: 0
+        -webkit-transform: scale3d(.3, .3, .3)
+        transform: scale3d(.3, .3, .3)
+    50%
+        opacity: 1
+    100%
+        opacity: 1
+
+@-webkit-keyframes fadeOutUpBig
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+        -webkit-transform: translate3d(0, -2000px, 0)
+        transform: translate3d(0, -2000px, 0)
+
+@keyframes fadeOutUpBig
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+        -webkit-transform: translate3d(0, -2000px, 0)
+        transform: translate3d(0, -2000px, 0)
+
+@-webkit-keyframes animateCloud
+    0%
+        bottom: 100%
+    100%
+        bottom: -20%
+
+@-moz-keyframes animateCloud
+    0%
+        bottom: 100%
+    100%
+        bottom: -20%
+
+@keyframes animateCloud
+    0%
+        bottom: 100%
+    100% 
+        bottom: -20%
