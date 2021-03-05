@@ -1,4 +1,5 @@
 # Game ballpop
+Is optimised (nearly) for mobile
 
 # (https://game-pop-ballon.herokuapp.com/
 
