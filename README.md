@@ -1,7 +1,7 @@
 # Game ballpop
 Nearly optimised for mobile
 
-# (https://game-pop-ballon.herokuapp.com/
+# https://game-pop-ballon.herokuapp.com/
 
 Pop as many balls as possible for 60 secs.
 Move bee around using mouse.
